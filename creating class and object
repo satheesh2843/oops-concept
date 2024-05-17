@@ -1,0 +1,14 @@
+class cls {
+    String name;
+    String rollnum;
+    public void display(){
+        System.out.println(name);
+        System.out.print(rollnum);
+    }
+    public static void main(String[] args) {
+        cls sk=new cls();
+        sk.name="SATHEESHKUMAR T";
+        sk.rollnum="21BEECE051";
+        sk.display();
+    }
+}
